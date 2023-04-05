@@ -9,13 +9,36 @@
   --back-color-section: #f4f4fd;
   --back-color-btn-order: #404bbf;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text);
   background-color: var(--white-color);
 }
-
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-div {
+  display: flex;
+}
 .header-two {
   font-family: "Roboto";
   font-style: normal;

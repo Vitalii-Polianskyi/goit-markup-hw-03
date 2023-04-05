@@ -9,11 +9,13 @@
   --back-color-section: #f4f4fd;
   --back-color-btn-order: #404bbf;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text);
   background-color: var(--white-color);
 }
+
 .header-two {
   font-family: "Roboto";
   font-style: normal;

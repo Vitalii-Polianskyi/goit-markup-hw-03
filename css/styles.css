@@ -219,7 +219,7 @@ a.nav-link {
   margin-bottom: 8px;
 }
 .advantages-list {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
 }
 .par {
   text-align: center;
@@ -261,12 +261,19 @@ a.nav-link {
 }
 .footer-background {
   background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.header-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-background .color {
   color: var(--back-color-section);
 }
 .par-footer-color {
   color: var(--back-color-section);
+  max-width: 264px;
 }
 .menu {
   background-color: var(--white-color);

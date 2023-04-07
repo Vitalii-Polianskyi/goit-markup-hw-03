@@ -28,6 +28,15 @@ ol {
 img {
   display: block;
 }
+.container {
+  width: 1158px;
+  outline: 2px solid red;
+  outline-offset: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text);
@@ -36,8 +45,28 @@ body {
 .header-border {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-div {
+.header-container {
   display: flex;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.nav-menu-list {
+  display: flex;
+}
+.header-nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.adress-list-menu {
+  display: flex;
+}
+.header-contact {
+  margin-right: 40px;
 }
 .header-two {
   font-family: "Roboto";
@@ -51,6 +80,7 @@ body {
   color: var(--dark-color);
 }
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -67,6 +97,11 @@ body {
 }
 .color {
   color: var(--dark-color);
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .nav-header {
   color: var(--body-text);

@@ -219,7 +219,7 @@ a.nav-link {
   margin-bottom: 8px;
 }
 .advantages-list {
-  width: calc ((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .par {
   text-align: center;

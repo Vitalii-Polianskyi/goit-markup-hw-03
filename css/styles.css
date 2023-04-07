@@ -138,10 +138,15 @@ a.nav-link {
   background-color: var(--dark-color);
 }
 .hero-container {
-  width: 1440px;
+  width: 1158px;
   height: 600px;
 }
 .titel-one {
+  padding-top: 188px;
+  text-align: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -150,6 +155,13 @@ a.nav-link {
   margin-bottom: 64px;
 }
 .btn-order {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -178,7 +190,17 @@ a.nav-link {
   color: var(--white-color);
   background-color: var(--pressed-color);
 }
+.scetion-advatages-list {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.two {
+  padding-bottom: 72px;
+}
 .headers {
+  padding-top: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -186,9 +208,18 @@ a.nav-link {
   color: var(--dark-color);
 }
 .par {
+  padding-bottom: 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
+}
+.scetion-doing-list {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-list {
 }
 .back-color {
   background-color: var(--back-color-section);

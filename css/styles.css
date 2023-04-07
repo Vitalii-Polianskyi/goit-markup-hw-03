@@ -79,6 +79,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 .logo {
   margin-right: 76px;
@@ -203,7 +204,7 @@ a.nav-link {
   margin-right: auto;
 }
 .two {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .headers {
   font-weight: 500;
@@ -221,6 +222,9 @@ a.nav-link {
   letter-spacing: 0.02em;
   color: var(--body-text);
 }
+.section-doing {
+  padding-bottom: 120px;
+}
 .scetion-doing-list {
   display: flex;
   gap: 24px;
@@ -229,8 +233,14 @@ a.nav-link {
 }
 .img-list {
 }
-.back-color {
+.section-team {
   background-color: var(--back-color-section);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-menu {
+  display: flex;
+  gap: 24px;
 }
 .menu {
   background-color: var(--white-color);

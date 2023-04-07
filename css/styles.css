@@ -201,7 +201,7 @@ a.nav-link {
 .scetion-advatages-list {
   display: flex;
   gap: 24px;
-  width: calc ((100% - 3 * 24px) / 4);
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -217,6 +217,9 @@ a.nav-link {
 }
 .headers-titel {
   margin-bottom: 8px;
+}
+.advantages-list {
+  width: calc ((100% - 3 * 24px) / 4);
 }
 .par {
   text-align: center;

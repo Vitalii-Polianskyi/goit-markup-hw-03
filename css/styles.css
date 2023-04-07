@@ -64,9 +64,10 @@ body {
 }
 .adress-list-menu {
   display: flex;
+  gap: 40px;
 }
 .header-contact {
-  margin-right: 40px;
+  gap: 40px;
 }
 .header-two {
   font-family: "Roboto";

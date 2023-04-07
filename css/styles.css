@@ -281,3 +281,6 @@ a.nav-link {
 .color-sec {
   background-color: var(--white-color);
 }
+.section-main {
+  padding: 96px 120px;
+}

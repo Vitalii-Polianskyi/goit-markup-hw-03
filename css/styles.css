@@ -192,9 +192,13 @@ a.nav-link {
   color: var(--white-color);
   background-color: var(--pressed-color);
 }
+.advatages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .scetion-advatages-list {
   display: flex;
-  gap: 24px;
+  width: calc ((100% - 3 * 24px) / 4);
   margin-left: auto;
   margin-right: auto;
 }
@@ -202,12 +206,14 @@ a.nav-link {
   padding-bottom: 72px;
 }
 .headers {
-  padding-top: 120px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+}
+.headers-titel {
+  margin-bottom: 8px;
 }
 .par {
   padding-bottom: 120px;

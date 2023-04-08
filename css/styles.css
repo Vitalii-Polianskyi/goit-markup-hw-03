@@ -188,11 +188,15 @@ a.nav-link {
   color: var(--primary-color);
   background-color: var(--back-color-section);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--back-color-button);
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
   color: var(--white-color);
   background-color: var(--pressed-color);
+  border: 1px solid transparent;
 }
 .advatages {
   padding-top: 120px;
@@ -283,4 +287,30 @@ a.nav-link {
 }
 .section-main {
   padding: 96px 120px;
+}
+/* PORTFOLIO  */
+.menu-list {
+}
+.menu-list-filter1 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  justify-content: center;
+}
+.list-content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.content {
+  width: calc((100% - 48px) / 3);
+}
+.name-content {
+  padding: 32px 16px;
+  border: 1px solid var(--back-color-button);
+  border-top: none;
+}
+.headers-content {
+  margin-bottom: 8px;
 }

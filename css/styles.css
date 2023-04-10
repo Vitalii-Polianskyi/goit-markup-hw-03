@@ -291,7 +291,8 @@ a.nav-link {
   border-radius: 0px 0px 4px 4px;
 }
 .section-main {
-  padding: 96px 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 /* PORTFOLIO  */
 

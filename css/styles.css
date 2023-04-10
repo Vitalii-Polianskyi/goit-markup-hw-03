@@ -36,7 +36,13 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
+}
+.container-portfolio {
+  width: 1158px;
+  outline: 2px solid red;
+  outline-offset: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -225,10 +231,7 @@ a.nav-link {
 .advantages-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.par {
-  text-align: center;
-  margin-bottom: 8px;
-  padding-bottom: 120px;
+.text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
@@ -243,6 +246,7 @@ a.nav-link {
   margin-right: auto;
 }
 .img-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .section-team {
   background-color: var(--back-color-section);
@@ -258,11 +262,10 @@ a.nav-link {
 }
 .user {
   padding: 32px 16px 32px;
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
+  text-align: center;
 }
-.menu {
-  background-color: var(--white-color);
-}
+
 .footer-background {
   background-color: var(--dark-color);
   padding-top: 100px;
@@ -275,15 +278,17 @@ a.nav-link {
 .footer-background .color {
   color: var(--back-color-section);
 }
-.par-footer-color {
+.text-footer-color {
   color: var(--back-color-section);
   max-width: 264px;
+  line-height: 1.5;
 }
 .menu {
   background-color: var(--white-color);
 }
 .color-sec {
   background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-main {
   padding: 96px 120px;

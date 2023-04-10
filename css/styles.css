@@ -262,7 +262,8 @@ a.nav-link {
 }
 .user {
   padding: 32px 16px 32px;
-  /* border-radius: 0px 0px 4px 4px; */
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 
 .footer-background {
